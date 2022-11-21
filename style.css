@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 980px) {
   .container0 {
-    width: 500px;
+    width: 400px;
   }
 }
 
@@ -140,6 +140,11 @@
   width: 41px;
   margin-top: 30px;
   margin-left: 35px;
+}
+@media screen and (max-width:980px) {
+  .svg3 {
+    display: none;
+  }
 }
 
 .ll {
@@ -424,11 +429,11 @@ a:hover {
   }
 }
 .button_2 {
-  position: absolute;
+   position: absolute; 
   height: 66px;
   width: 285px;
   margin-left: 20px;
-  margin-top: 57px;
+  margin-top: -10px;
   font-size: 18px;
   border-radius: 0px;
   border: 1px solid #55a630;
@@ -466,7 +471,7 @@ a:hover {
     left: -20px;
     width: 450px;
     height: 350px;
-    top: 390px;
+    top: 380px;
   }
 }
 .img2 {
@@ -505,7 +510,7 @@ a:hover {
   .block5 {
     width: 417px;
     height: 350px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: -15px;
   }
   .g1 {
@@ -1025,6 +1030,8 @@ border-radius: 0px;
 width: 74px;
 top: 2030px;
 left: 832px;
+margin-left: 50px;
+text-decoration: none;
 border-radius: nullpx;
 font-family: Montserrat;
 font-size: 25px;
@@ -1034,6 +1041,7 @@ letter-spacing: 0em;
 text-align: center;
 color: #424242;
 }
+
 
 .u {
   position: absolute;
@@ -1075,6 +1083,7 @@ text-align: left;
 width: 156px;
 left: 1058px;
 top: 2630px;
+text-decoration: none;
 border-radius: nullpx;
 font-family: Montserrat;
 font-size: 25px;
@@ -1722,11 +1731,11 @@ letter-spacing: 0em;
 text-align: left;
 color: #424242;
 }
-/* @media screen and (max-width:980px) {
+ @media screen and (max-width:980px) {
   .p16 {
-    margin-top: ;
+    margin-top: 60px;
   }
-} */
+} 
 .p16_6 {
   height: 25px;
 width: 225px;
@@ -1849,9 +1858,11 @@ border-radius: nullpx;
 @media screen and (max-width:980px) {
   .t2 {
     width: 400px;
+    margin-top: 40px;
   }
   .t1 {
     width: 350px;
+    margin-top: 30px;
   }
 }
 .btv {
